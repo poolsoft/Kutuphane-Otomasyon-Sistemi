@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/*
+* Theme by: Seçkin Poyraz <seckinpoyraz.com>
+* Theme version: v1.0
+* All rights reserved.
+*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (max-width:500px){
+	.messi-box{
+		width: 400px !important;
+	}
+}
+
+@media all and (max-width:400px){
+	.messi-box{
+		width: 300px !important;
+	}
+}
+
+@media all and (max-width:300px){
+	.messi-box{
+		width: 200px !important;
+	}
+}
+
+*:focus{
+	outline: 0;
+	border-color: rgba(77, 144, 254, .3);
+	box-shadow: 0 0 8px rgba(77, 144, 254, .5);
+}
+
+/*
+==============================
+==============================
+		LOGIN PAGE
+==============================
+==============================
+*/
+.login-page{
+	padding-top: 80px;
+}
+
+.login-page .login-box-all{
+	width: 500px;
+	margin: auto;
+	padding-bottom: 5px;
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.login-page .login-box-all .big-title{
+	font: 900 28px 'Roboto', sans-serif;
+	color: rgba(0, 0, 0, 0.6);
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	letter-spacing: -1px
+}
+
+.login-page .login-box-all .small-title{
+	font: 400 20px 'Roboto', sans-serif;
+	color: rgba(0, 0, 0, 0.6);
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	text-align: center;
+	letter-spacing: 1px
+}
+
+.login-page .login-box-all .login-box{
+	display: block;
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: solid 3px rgba(0, 0, 0, 0.1);
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.login-page .login-box-all .login-box .one{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.login-page .login-box-all .login-box .one .ust{
+	font: 700 15px 'Roboto', sans-serif;
+	color: rgba(0, 0, 0, 0.6);
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+}
+
+.login-page .login-box-all .login-box .one .alt{
+	padding-top: 5px;
+}
+
+.login-page .login-box-all .login-box .one .alt .input{
+	font: 500 18px 'FontAwesome', 'Roboto', sans-serif;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 13px;
+	background: #FFF;
+	border: solid thin rgba(0, 0, 0, .16);
+	transition: 0.1s;
+}
+
+.login-page .login-box-all .login-box .one .alt .input:focus{
+	outline: 0;
+	border-color: rgba(77, 144, 254, .3);
+	box-shadow: 0 0 8px rgba(77, 144, 254, .5);
+}
+
+.login-page .login-box-all .login-box .check{
+	margin-top: 12px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.login-page .login-box-all .login-box .btn{
+	background: #FFF;
+	border: 0;
+	border: solid thin rgba(0, 0, 0, .16);
+	transition: 0.1s;
+	font: 900 18px 'FontAwesome', 'Roboto', sans-serif;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.login-page .login-box-all .login-box .btn:hover{
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.login-page .login-box-all .login-box .btn:focus{
+	outline: 0;
+	border-color: rgba(77, 144, 254, .3);
+	box-shadow: 0 0 8px rgba(77, 144, 254, .5);
+}
+
+@media all and (max-width: 550px){
+	.login-page .login-box-all{
+		width: 95%;
+	}
+}
+
+@media all and (max-width: 510px){
+	.login-page .login-box-all{
+		padding-bottom: 10px;
+	}
+
+	.login-page .login-box-all .login-box{
+		padding-top: 10px;
+	}
+
+	.login-page .login-box-all .big-title{
+		font-size: 25px;
+	}
+
+	.login-page .login-box-all .small-title{
+		font-size: 15px;
+	}
+
+	.login-page .login-box-all .login-box .one{
+		margin-bottom: 7px;
+	}
+
+	.login-page .login-box-all .login-box .check{
+		margin-top: 15px;
+	}
+
+	.login-page .login-box-all .login-box .one .ust{
+		font-size: 14px;
+	}
+
+	.login-page .login-box-all .login-box .one .alt .input{
+		font-size: 15px;
+	}
+
+	.login-page .login-box-all .login-box .btn{
+		font-size: 15px;
+	}
+
+	.login-page .login-box-all .login-box{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media all and (max-width: 440px){
+	.login-page .login-box-all .big-title{
+		font-size: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 20px;
+	}
+	.login-page .login-box-all .login-box{
+		margin-top: 10px;
+	}
+}
+
+.copyright{
+	display: block;
+	max-width: 500px;
+	margin: 70px auto;
+	text-align: center;
+	font: 500 13px 'FontAwesome', 'Roboto', sans-serif;
+	color: #FFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: 1px 1px 0 #333;
+}
+
+.copyright a{
+	color: #E2E2E2;
+	text-decoration: none;
+}
+
+.copyright a:hover{
+	color: #FFF;
+}
+
+.copyright div:last-child{
+	font-size: 13px;
+	padding-top: 5px;
+}
